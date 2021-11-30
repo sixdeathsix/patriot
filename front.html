@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/x-icon" rel="shortcut icon" href="assets/icons/favicon.ico">
+  <link type="image/png" sizes="16x16" rel="icon" href="assets/icons/favicon-16x16.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="assets/icons/favicon-32x32.png">
+  <link type="image/png" sizes="96x96" rel="icon" href="assets/icons/favicon-96x96.png">
+  <link type="image/png" sizes="120x120" rel="icon" href="assets/icons/favicon-120x120.png">
+  <link type="image/png" sizes="192x192" rel="icon" href="assets/icons/android-icon-192x192.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Письмо на фронт</title>
+</head>
+<body>
+
+  <div class="container p-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="calendar.html">Календарь победы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="history.html">Перепись истории</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="feats.html">Подвиги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="front.html">Фронт</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tassr.html">ТАССР</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="histories.html">Истории наших ребят</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="facts.html">Интересные факты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="mails.html">Письмо на фронт</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container mb-5 mt-5">
+    <div class="row mb-5">
+      <div class="col-lg-6 col-md-12 align-self-center">
+        <img src="assets/img/украинсик фронт.webp" class="d-block mx-auto" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 align-self-center">
+        <h2 class="text-center">
+          Украинский фронт
+        </h2>
+        <p class="text-center">
+          Информация о наших родственниках которые были в рядах Украинского фронта
+        </p>
+        <button type="button" class="btn btn-outline-dark d-block mx-auto" data-bs-toggle="modal" data-bs-target="#ukrFront">Подробнее</button>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-6 col-md-12 align-self-center">
+        <img src="assets/img/Сталинград.webp" class="d-block mx-auto" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 align-self-center">
+        <h2 class="text-center">
+          Битва за Сталинград
+        </h2>
+        <p class="text-center">
+          Информация о наших родственниках которые участвовали в обороне Сталинграда
+        </p>
+        <button type="button" class="btn btn-outline-dark d-block mx-auto" data-bs-toggle="modal" data-bs-target="#stalingrad">Подробнее</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12 align-self-center">
+        <img src="assets/img/Труженики тыла.webp" class="d-block mx-auto" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 align-self-center">
+        <h2 class="text-center">
+          Труженики тыла
+        </h2>
+        <p class="text-center">
+          Информация о наших родственниках которые трудились в тылу 
+        </p>
+        <button type="button" class="btn btn-outline-dark d-block mx-auto" data-bs-toggle="modal" data-bs-target="#workers">Подробнее</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="ukrFront" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/БАЙМАТОВ АБДУРАХМАН.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Байматов Абдурахман
+              </h2>
+              <p class="px-4 txt">
+                Ему едва исполнилось восемнадцать лет, он пошёл служил рядовым в 531-ом минометном полку.
+                <br>
+                Отважно сражался за освобождение Донбасса, Апостолово, Никополь, Кривой Рог, разгромил немецко-румынских войск в Киеве и под Одессой, а также участвовал в боевых действиях освобождения Польши.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Сатдарова Фавзия Рафиковна.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Сатдарова Фавзия Рафиковна
+              </h2>
+              <p class="px-4 txt">
+                Родилась 23 марта в 1922 году, под Волгоградом в деревне «Дубовка».
+                <br>
+                Ей было всего 19 лет, когда началась Великая Отечественная война.
+                <br>
+                До всего этого она отучилась на швею и пошла работать на фабрику, но ,к несчастью, ей  пришлось все бросить.
+                <br>
+                Она была зачислена добровольцем в ряды Красной Армии и тебя отправили на фронт.
+                <br>
+                На поле боя под Минском , она приняла солдатскую присягу.
+                <br>
+                На передовой находилась в составе отдельного батальона стрелковой дивизии и так же была медсестрой при военном передвижном госпитале.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Гасима Касимовна.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Курносова Гасима Касимовна
+              </h2>
+              <p class="px-4 txt">
+                Ей было 18 лет, когда началась Великая Отечественная война
+                <br>
+                В свои прекрасные молодые годы ты ощутила на себе ужасы войны.
+                <br>
+                В 1943 году формировался женский зенитный полк и ты, комсомолка, в числе других девушек из окрестных деревень записалась туда добровольцем. 6 мая вас отправили поездом под Москву.
+                <br>
+                В Серпухове девушки-зенитчицы охраняли большой военный аэродром.
+                <br>
+                Несли службу, учили обращаться с оружием. Зенитчицы сопровождали на фронт эшелоны с солдатами, продуктами, снаряжением, боеприпасами. В обратную сторону они ехали, охраняя раненных бойцов и вышедшую из строя технику.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Корсаков Анатолий Николаевич.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Корсаков Анатолий Николаевич
+              </h2>
+              <p class="px-4 txt">
+                Он тоже внес свой вклад в победу в Великой Отечественной Войне.
+                <br>
+                Он в участвовал с 29 октября 1941 года. На Украинском фронте был с 2 февраля 1942 года. Был ранен 23 июня 1943 года. Был награждён Медалью: «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Иванов Михаил Андреевич.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Иванов Михаил Андреевич
+              </h2>
+              <p class="px-4 txt">
+                Родился 21 ноября 1917 года в Смоленской области. Призван был в Армию в 1938 году, участвовал в Русско-Финской войне, с 23 июля 1941 г по 9 мая 1945 г участвовал в Великой Отечественной войне в боевых действиях за Запорожье, Дунай, Севастополь, Бичке, Сиваш, Крым, на реке Свирь.
+                <br>
+                Служил Артиллеристом. Прошел всю войну. Был награжден медалями и орденом «Красной Звезды».
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal"><img src="assets/icons/cancel (1).png" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="stalingrad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Харчейкин Дмитрий Иванович.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Харчейкин Дмитрий Иванович
+              </h2>
+              <p class="px-4 txt">
+                Родился 2 ноября 1925 года в Аксубаевском Районе в деревне старое Ильдеряково. Был призван на службу в 1943 году.
+                <br>
+                Воевал в Великой Отечественной войне, дошёл до Берлина. Воевал в Японской  войне 1945 года. Был участником Сталинградской битвы.
+                <br>
+                Получил медали за взятие берлина, за славу , за отвагу, и др. Вернулся домой в 1947 году. Умер В 1974 году.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Капин Дмитрий Иванович.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Капинов Дмитрий Иванович
+              </h2>
+              <p class="px-4 txt">
+                Он ушел добровольцем на фронт в августе 1941 года, а в июне 1945 вернулся домой.
+                <br>
+                Он был автослесарем на войне, в одну из его заслуг входит восстановление семи трофейных машин.
+                <br>
+                Был награжден медалью «За боевые заслуги», медалью «За оборону Сталинграда» и несколькими грамотами, где были прописаны его боевые заслуги.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Нет фото.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Габдрашитов Миннебай Габдрашитович
+              </h2>
+              <p class="px-4 txt">
+                Ветеран великой отечественной войны. Родился в 1901 г. в деревне Нурлат Альметьевского района.Был коммунистом. До войны был счетоводом, держал пасеку и организовал швейное производство для колхоза.
+                <br>
+                Был призван в 1941 г., воевал на западном фронте, учувствовал в сталинградской битве. где был  девять раз ранен, после чего переведен в тыл.
+                <br>
+                После восстановления и до 1947 г. охранял стратегический объект в Москве. Был Награжден медалями за отвагу, за победу в сталинградской битве и победу в великой отечественной войне.
+                <br>
+                После того, как был демобилизован, вернулся домой и продолжил работу на прежней должности.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Костин Иван Георгиевич .webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Костин Иван Георгиевич
+              </h2>
+              <p class="px-4 txt">
+                Во время Великой Отечественной войны  был разведчиком и состоял в нескольких воинских частях: 51 осбр (отд. стрелковая бригада), 57 осбр, 104 атр (автотранспортная рота), 622 оатр (отд. автотранспортная рота).
+                <br>
+                Был удостоен нескольких наград:
+                <ol class="txt">
+                  <li>Орден Красной Звезды.</li>
+                  <li>Медаль «За боевые заслуги».</li>
+                  <li>Орден Отечественной войны II степени.</li>
+                  <li>Медаль «За оборону Сталинграда»</li>
+                  <li>Медаль «За оборону Москвы».</li>
+                  <li>Медаль «За взятие Берлина».</li>
+                </ol>
+                <ol class="li"></ol>
+                <ol class="li"></ol>
+                <ol class="li"></ol>
+                <ol class="li">.</ol>
+                <ol class="li"></ol>
+                <ol class="li"></ol>
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-lg-4 col-md-12 align-self-center">
+              <img src="assets/img/Валиев Анвар.webp" class="d-block mx-auto" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-center">
+                Валиев Анвар
+              </h2>
+              <p class="px-4 txt">
+                Ушёл на фронт 24 августа 1942 года. Сначала служил в 601 стрелковом полку, 1943 получил контузию, но в этом же году в августе был зачислен в 254 гвардейский стрелковый полк, но 7 октября 1943 года опять был ранен, а в декабре опять зачислен в 254 полк и участвовал в освобождении Ельня и Смоленска.
+                <br>
+                В марте 1944 опять был ранен на сквозь. В июне 1944 года зачислен в 3 ударный стрелковый полк и в сентябре 1944 опять был ранен, после чего в декабре этого же года был зачислен в 120 отдел стрелкового батальона.
+                <br>
+                Принимал участие в Сталинградской, Ленинградской блокадах, в боях на Невском пятачке и дошёл до Берлина. 8 августа 1982 года, ушёл из этого мира.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal"><img src="assets/icons/cancel (1).png" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="workers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-lg-12 col-md-12">
+              <img src="assets/img/C49UPTLXUAQl-M0.webp" class="d-block mx-auto" alt="">
+              <h2 class="text-center">
+                Труженики тыла
+              </h2>
+              <p class="px-4">
+                Труженики тыла принимали не меньшее участие в борьбе с германскими захватчиками, чем воины, находившиеся на линии фронта. Женщины и подростки (большинство мужчин были мобилизованы) обеспечивали воинов всем необходимым: боеприпасами, одеждой и обувью, продовольствием. Все народное хозяйство СССР было в короткое время переориентировано на нужды фронта.Вероломное нападение захватчиков на следующий день после того, как в школах прошли выпускные вечера, стало большим потрясением для советских людей.В первые месяцы войны народ еще верил в лозунги правительства в кратчайшие сроки устранить агрессора, но оккупированная территория все расширялась, а граждане понимали, что освобождение от фашистов зависит не только от действий власти, но и от них самих.
+                <br>
+                В конце июня 1941 года правительство приняло первый военный план, который был попыткой переориентировать экономику на ведение войны. Программа производства техники, если сравнивать с довоенным планом, была увеличена на четверть. В список ударных строек вошли предприятия химической и металлургической промышленности, электростанции и железные дороги, заводы, выпускающие военную продукцию.Важнейшие в экономическом плане районы страны на тот момент уже были захвачены врагом. На оккупированной территории до начала вторжения немецкой армии проживало 40 % населения, производилась третье валовой продукции, выращивалось 38 % зерна. В восточные районы, то есть в советский тыл, в годы Великой Отечественной войны в срочном порядке эвакуировались сотни промышленных предприятий.
+                <br>
+                Уже к зиме 1941-го на Урал, в Сибирь и Среднюю Азию перемещены были более 1500 предприятий и десять миллионов человек. На новом месте нередко разворачивали производства прямо под открытым небом. Труженики советского тыла в годы войны (кратко о них будет рассказано далее) работали на нужды страны, не дожидаясь, пока будет возведена крыша над головой.
+                <br>
+                Все достижения экономики в военные годы опирались на самоотверженный труд советских людей. Женщины и подростки работали в тяжелых условиях, проявляли необычайные стойкость и упорство, не жалели сил и здоровья.
+                <br>
+                Советские люди массово записывались в ополчение, сдавали кровь, жертвовали деньги и материальные ценности на нужды оборонной промышленности.Девушки, не достигшие совершеннолетия, скрывали свой возраст, чтобы пойти медсестрами на фронт. Мобилизацию подлежали миллионы советских граждан, а в тылу развернулось масштабное обучение военному и медицинскому делу. Все предприятия были переведены на военное положение. Установлен одиннадцатичасовой рабочий день, шестидневная рабочая неделя, отпуска отменялись, а сверхурочные работы стали обязательными.
+                <br>
+                В годы войны продолжались аресты и репрессии. Солдаты и офицеры, попавшие в плен, объявлялись изменниками, а их семьи лишались гос. пособия и материальной или продовольственной помощи. В самом начале немецкого наступления подозреваемые в контрреволюционной деятельности или осужденные подлежали расстрелу на месте.
+              </p>
+            </div>
+          </div>
+        </div>  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal"><img src="assets/icons/cancel (1).png" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <div class="container mb-2">
+        <a href="https://www.instagram.com/orden_in_my_house/" target="_blank"><img src="assets/icons/instagram (3).png" alt=""></a>
+        <a href="https://vk.com/public206433602" target="_blank"><img src="assets/icons/vk.png" alt=""></a>
+    </div>
+    <div class="text-center text-dark mb-4">
+      Сквозь года звенит победа © 2021
+    </div>
+  </footer>
+
+  <div id="scroll-top" class="show-btn">
+    <img src="assets/icons/up-arrow.png" alt="">
+  </div>
+
+</body>
+<style>
+  .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+  }
+  h2{
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  .txt{
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+</html>
